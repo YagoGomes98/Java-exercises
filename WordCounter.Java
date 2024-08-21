@@ -12,4 +12,16 @@ public class WordCount {
         }
         return distinctWords.size();
     }
+
+    public static void main(String[] args) {
+        // Example text
+        String text = "Hello world! Welcome to the world of Java. Java is fun and Java is powerful.";
+
+        // Counting distinct words 
+        int distinctWordCount = countDistinctWords(text);
+
+        // Display result
+        System.out.println("Number of distinct words: " + distinctWordCount);
+    }
 }
+
